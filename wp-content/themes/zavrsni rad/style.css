@@ -678,6 +678,9 @@ HERO STAT CSS
 }
 /* ######################### TESTNI DIO ZA SINGLE-HERO-PAGE ############################## */
 /* ##### CONTACT ##### */
+#contact-wrap {
+  display: flex;
+}
 #contact-container {
   max-width: 1000px;
   margin: 0 auto;
@@ -1024,6 +1027,15 @@ HERO STAT CSS
     #stat-wrap {
       max-width: 300px;
       width: 100%;
+    }
+    #contact-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 10%;
+    }
+    .mail-box, .facebook-box, .linked-box, .twitter-box {
+      margin-left: unset;
+      width: 31%;
     }
   }
   @media screen and (max-width: 585px) {

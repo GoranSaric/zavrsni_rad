@@ -45,7 +45,7 @@ get_header(); ?>
 						<div id="div-article-desc">
 							<a href="<?php the_permalink(); ?>">
 								<h3><?php the_title(); ?></h3>
-								<p>Neki tekst koji pokazuje da ovdje ima više contenta nego što bi trebalo biti</p>
+								<p><?php the_excerpt(); ?></p>
 							</a>
 						</div>
 						<div class="overlay"></div>
@@ -70,7 +70,7 @@ get_header(); ?>
 						<div id="article-desc">
 							<a href="<?php the_permalink(); ?>">
 								<h3><?php the_title(); ?></h3>
-								<p>Neki tekst koji pokazuje da ovdje ima više contenta nego što bi trebalo biti</p>
+								<p><?php the_excerpt(); ?></p>
 							</a>
 						</div>
 						<div class="overlay"></div>
